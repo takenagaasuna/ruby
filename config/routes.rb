@@ -14,6 +14,6 @@ Rails.application.routes.draw do
       resources :comments, only: [:create, :destroy]
     end
     
-    root 'posts#index'
+    root 'sessions#new'
     
 end
